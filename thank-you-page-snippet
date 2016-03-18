@@ -1,3 +1,4 @@
+<!-- Facebook Pixel Code --> 
 {% if first_time_accessed %}
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -16,3 +17,4 @@ currency: '{{ shop.currency }}'
 src="https://www.facebook.com/tr?id=<YOUR PIXEL ID>&ev=PageView&amp;noscript=1"
 /></noscript>
 {% endif %}
+<!-- End Facebook Pixel Code --> 
