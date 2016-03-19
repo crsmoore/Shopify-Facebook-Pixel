@@ -12,7 +12,7 @@ fbq('track', 'Purchase', {
 value: '{{ subtotal_price | money_without_currency }}',
 currency: '{{ shop.currency }}'
  
-<script>
+</script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=<YOUR PIXEL ID>&ev=PageView&amp;noscript=1"
 /></noscript>
